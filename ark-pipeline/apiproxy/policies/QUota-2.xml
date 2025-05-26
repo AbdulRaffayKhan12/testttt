@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Quota async="false" continueOnError="false" enabled="true" name="Quota" type="calendar">
-    <DisplayName><Quota-2></Quota-2></DisplayName>
+<Quota async="false" continueOnError="false" enabled="true" name="Quota-2" type="calendar">
+    <DisplayName>quota</DisplayName>
     <Properties/>
     <Allow count="2000" countRef="request.header.allowed_quota"/>
     <Interval ref="request.header.quota_count">1</Interval>
-    <Distributed>false</Distributed>
-    <Synchronous>false</Synchronous>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
     <TimeUnit ref="request.header.quota_timeout">month</TimeUnit>
     <StartTime>2025-05-26 20:55:48</StartTime>
     <AsynchronousConfiguration>
