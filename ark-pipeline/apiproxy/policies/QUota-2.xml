@@ -9,7 +9,7 @@
     <TimeUnit ref="request.header.quota_timeout">month</TimeUnit>
     <StartTime>2025-05-26 20:55:48</StartTime>
     <AsynchronousConfiguration>
-        <SyncIntervalInSeconds>20</SyncIntervalInSeconds>
-        <SyncMessageCount>5</SyncMessageCount>
+        <SyncIntervalInSeconds>21</SyncIntervalInSeconds>
+        <SyncMessageCount>11333</SyncMessageCount>
     </AsynchronousConfiguration>
 </Quota>
