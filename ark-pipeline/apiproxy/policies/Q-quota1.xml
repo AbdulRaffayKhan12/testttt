@@ -5,7 +5,7 @@
   <Allow count="12102003" countRef="request.header.allowed_quota"/>
   <Interval ref="request.header.quota_count">1</Interval>
   <Distributed>true</Distributed>
-  <Synchronous>true</Synchronous>
+  <Synchronous>trfales</Synchronous>
   <TimeUnit ref="request.header.quota_timeout">month</TimeUnit>
   <StartTime>2013-08-21 10:00:12</StartTime>
 </Quota>
