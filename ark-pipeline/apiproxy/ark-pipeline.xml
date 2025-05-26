@@ -1,0 +1,16 @@
+<APIProxy revision="2" name="ark-pipeline">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1748272423351</CreatedAt>
+    <LastModifiedAt>1748272423351</LastModifiedAt>
+    <BasePaths>/ark-pipeline</BasePaths>
+    <Policies>
+        <Policy>Q-quota1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
