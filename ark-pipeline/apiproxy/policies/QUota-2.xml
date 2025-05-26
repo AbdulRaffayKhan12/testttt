@@ -4,7 +4,7 @@
     <Properties/>
     <Allow count="2000" countRef="request.header.allowed_quota"/>
     <Interval ref="request.header.quota_count">1</Interval>
-    <Distributed>true</Distributed>
+    <Distributed>false</Distributed>
     <Synchronous>false</Synchronous>
     <TimeUnit ref="request.header.quota_timeout">month</TimeUnit>
     <StartTime>2025-05-26 20:55:48</StartTime>
