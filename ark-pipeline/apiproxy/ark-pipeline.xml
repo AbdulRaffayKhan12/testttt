@@ -4,9 +4,6 @@
     <CreatedAt>1748272423351</CreatedAt>
     <LastModifiedAt>1748272423351</LastModifiedAt>
     <BasePaths>/ark-pipeline</BasePaths>
-    <Policies>
-        <Policy>Q-quota1</Policy>
-    </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
     </ProxyEndpoints>
